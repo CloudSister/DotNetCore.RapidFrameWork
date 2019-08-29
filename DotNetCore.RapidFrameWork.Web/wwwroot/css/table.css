@@ -1,0 +1,96 @@
+﻿html, body
+{
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+a:focus
+{
+    outline: none;
+}
+
+/* 通用表格显示 */
+table, th, td
+{
+    font: 12px Arial,Helvetica,sans-serif,'宋体';
+    margin: 0;
+    padding: 0;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.datatable
+{
+    width: 100%;
+    border-style: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .datatable th, .datatable td
+    {
+        padding: 5px;
+        line-height: 30px;
+    }
+
+    .datatable thead th
+    {
+        background-color: #eee;
+        margin: 0;
+        text-align: left;
+        border-top: 1px solid #cfcfcf;
+        border-bottom: 1px solid #cfcfcf;
+        font-weight: 500;
+    }
+
+    .datatable tbody td
+    {
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        table-layout: fixed;
+        word-break: break-all;
+        font-weight: 400;
+    }
+
+    .datatable tbody tr.evenrow td
+    {
+        background-color: #f4f4f4;
+    }
+
+    .datatable tfoot td
+    {
+        background-color: #fafafa;
+        text-align: right;
+        border-bottom: 1px solid #cfcfcf;
+    }
+    /*表格分页列表*/
+    .datatable td.paging a
+    {
+        border: 1px solid #eee;
+        color: #444;
+        margin: 4px;
+        padding: 2px 7px;
+        text-decoration: none;
+        text-align: center;
+    }
+        /*表格分页当前页*/
+        .datatable td.paging a.current
+        {
+            background: #eee;
+            border: 1px solid #CFCFCF;
+            color: #444;
+            font-weight: bold;
+        }
+
+        .datatable td.paging a.current
+        {
+            border: 0;
+            cursor: auto;
+            background: none;
+        }

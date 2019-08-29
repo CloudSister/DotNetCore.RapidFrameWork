@@ -1,0 +1,38 @@
+﻿.page_item
+{
+    background: #C9DCD7;
+    width: 180px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3CF;
+}
+
+    .page_item:hover
+    {
+        background: #A9C9FA;
+        cursor: pointer;
+    }
+
+#page_ctrl
+{
+    padding-top: 5px;
+}
+
+.page_ctrl
+{
+    width: 40px;
+    text-align: center;
+    background: #A9C9FA;
+    float: left;
+    margin: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .page_ctrl:hover
+    {
+        background: #C9DCD7;
+        cursor: pointer;
+    }
